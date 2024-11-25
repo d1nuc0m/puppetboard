@@ -2,6 +2,32 @@
 
 All notable changes to this project will be documented in this file.
 
+## [v5.5.0](https://github.com/voxpupuli/puppetboard/tree/v5.5.0) (2024-11-24)
+
+[Full Changelog](https://github.com/voxpupuli/puppetboard/compare/v5.4.0...v5.5.0)
+
+**Features**
+
+- Add support for Python 3.12, 3.13
+- Drop support for Python 3.8
+- Docker image: do not run app as root
+
+**Fixes**
+
+- Align structured facts with tops of cells
+
+**Merged pull requests:**
+
+- Bump pypa/gh-action-pypi-publish from 1.9.0 to 1.12.2 [\#1182](https://github.com/voxpupuli/puppetboard/pull/1182) ([dependabot[bot]](https://github.com/apps/dependabot))
+- Bump types-setuptools from 71.1.0.20240726 to 71.1.0.20240806 [\#1142](https://github.com/voxpupuli/puppetboard/pull/1142) ([dependabot[bot]](https://github.com/apps/dependabot))
+- Bump types-requests from 2.32.0.20240622 to 2.32.0.20240712 [\#1132](https://github.com/voxpupuli/puppetboard/pull/1132) ([dependabot[bot]](https://github.com/apps/dependabot))
+- Bump coverage from 7.5.3 to 7.5.4 in the python group [\#1120](https://github.com/voxpupuli/puppetboard/pull/1120) ([dependabot[bot]](https://github.com/apps/dependabot))
+- Bump docker/build-push-action from 5 to 6 [\#1118](https://github.com/voxpupuli/puppetboard/pull/1118) ([dependabot[bot]](https://github.com/apps/dependabot))
+- Bump bandit from 1.7.8 to 1.7.9 in the python group [\#1116](https://github.com/voxpupuli/puppetboard/pull/1118) ([dependabot[bot]](https://github.com/apps/dependabot))
+- Bump codecov/codecov-action from 4.3.0 to 4.5.0 [\#1115](https://github.com/voxpupuli/puppetboard/pull/1115) ([dependabot[bot]](https://github.com/apps/dependabot))
+- Bump gunicorn from 21.2.0 to 22.0.0 in the pip group [\#1089](https://github.com/voxpupuli/puppetboard/pull/1089) ([dependabot[bot]](https://github.com/apps/dependabot))
+- Bump idna from 3.6 to 3.7 [\#1081](https://github.com/voxpupuli/puppetboard/pull/1081) ([dependabot[bot]](https://github.com/apps/dependabot))
+
 ## [v5.4.0](https://github.com/voxpupuli/puppetboard/tree/v5.4.0) (2024-03-01)
 
 [Full Changelog](https://github.com/voxpupuli/puppetboard/compare/v5.3.0...v5.4.0)
