@@ -26,6 +26,13 @@ table.on('xhr', function(e, settings, json){
     data: {
         columns: realdata,
         type : '{{config.GRAPH_TYPE|default('pie')}}',
+    },
+    tooltip: {
+        format: {
+            value: function(value, ratio, id) {
+                return value + ' (' + (ratio * 100).toFixed(1) + '%)';
+            }
+        }
     }
   });
 })
